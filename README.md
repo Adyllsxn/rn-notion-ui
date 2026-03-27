@@ -1,4 +1,4 @@
-# 📱 rn-notion-ui - Notion Inspired Mobile UI
+# 📚 TANGA-BOOKS
 
 This project is a **React Native application** built with **Expo** and **expo-router**, inspired by the clean and modern design of **Notion**.  
 The goal is to practice **mobile-first development**, explore **navigation patterns**, and deliver a polished **UI/UX** for study and portfolio purposes.
@@ -7,40 +7,31 @@ The goal is to practice **mobile-first development**, explore **navigation patte
 
 ## 🚀 Technologies Used
 
+- React Native (Expo + expo-router)  
 - React Native  
 - Expo  
 - expo-router  
 - TypeScript  
-- @expo/vector-icons  
-
+- @expo/vector-icons   
+- GitHub Actions (CI/CD)
+  
 ---
 
-## 🎨 Highlights
+## 📌 Highlights
 
 - Tab navigation with custom icons (Feather)  
 - Dark theme with reusable color palette  
 - Badge notifications integrated into tab bar  
 - Modular screen structure with expo-router  
-- Clean and scalable UI components  
+- Clean and scalable UI components   
+- Documentation in `docs/` for setup and architecture  
 
 ---
 
-## 📦 Installation & Setup 
+## 📄 Documentation
 
-### Clone the repository 
-```bash 
-git clone https://github.com/Adyllsxn/rn-notion-ui.git cd rn-notion-ui
-```
-
-### Install dependencies
-```bash 
-npm install
-```
-
-### Run the project
-```bash 
-npx expo start
-```
+- [Architecture](./docs/architecture.md)  
+- [Setup Guide](./docs/setup.md)  
 
 ---
 
@@ -50,15 +41,15 @@ npx expo start
 ---
 
 ## 📸 Demo
-![Demo](./assets/demo/rn-notion-ui.png "Visual Demo")
+![Demo](./docs//assets/ "Visual Demo")
 
 ---
 
 ## 👨‍💻 Author
-**Domingos Nascimento (Adyllsxn)**  
+**Domingos Nascimento**  
 
 - [LinkedIn](https://www.linkedin.com/in/adyllsxn/)  
-- [GitHub](https://github.com/Adyllsxn)
+- [GitHub](https://github.com/Adyllsxn)  
 
 ---
 

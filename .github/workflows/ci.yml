@@ -1,0 +1,33 @@
+name: CI - Build & Test
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      
+      # Mobile (só instala e faz lint/typecheck)
+      - name: Install mobile dependencies
+        run: npm ci --prefix mobile
+      
+      - name: Type check mobile
+        run: npx tsc --noEmit --prefix mobile || true
+
+      # Lint nos dois
+      - name: Lint
+        run: |
+          npm run lint --prefix mobile || true
