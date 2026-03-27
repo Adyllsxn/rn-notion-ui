@@ -1,4 +1,4 @@
-# 📚 TANGA-BOOKS
+# 🎨 RN-NOTION-UI
 
 This project is a **React Native application** built with **Expo** and **expo-router**, inspired by the clean and modern design of **Notion**.  
 The goal is to practice **mobile-first development**, explore **navigation patterns**, and deliver a polished **UI/UX** for study and portfolio purposes.
@@ -8,13 +8,10 @@ The goal is to practice **mobile-first development**, explore **navigation patte
 ## 🚀 Technologies Used
 
 - React Native (Expo + expo-router)  
-- React Native  
-- Expo  
-- expo-router  
 - TypeScript  
 - @expo/vector-icons   
 - GitHub Actions (CI/CD)
-  
+
 ---
 
 ## 📌 Highlights
@@ -41,7 +38,7 @@ The goal is to practice **mobile-first development**, explore **navigation patte
 ---
 
 ## 📸 Demo
-![Demo](./docs//assets/ "Visual Demo")
+![Demo](./docs//assets/demo.png "Visual Demo")
 
 ---
 
